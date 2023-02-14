@@ -6,3 +6,6 @@ class Point:
 
     def __str__(self):
         return "({},{})".format(self.x, self.y)
+
+    def norm(self):
+        return self.x * self.x + self.y * self.y
